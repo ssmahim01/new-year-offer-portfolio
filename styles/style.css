@@ -228,3 +228,87 @@ margin-top:70px;
 margin-bottom:110px;
 cursor: pointer;
 }
+
+/* best offer section styles start here */
+
+.bestoffer-section-container{
+    width: 1320px;
+height: 463px;
+margin:0 auto;
+margin-top:50px;
+
+
+}
+
+.bestoffer-content{
+    width:100%;
+    height:600px;
+    display:flex;
+    gap:40px;
+}
+
+.bestoffer-content1{
+    width: 393px;
+height: 255px;
+width:33%;
+height:300px;
+margin-top:110px;
+}
+
+.bestoffer-content h4{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.bestoffer-content h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+
+.bestoffer-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.bestoffer-image{
+    width:33%;
+    height:300px;
+    margin-top:50px;
+}
+
+.bestoffer-image img{
+    width: 364.84px;
+height: 364.84px;
+}
+
+.bestoffer-content2{
+    width:33%;
+    height:300px;
+    margin-top:110px;
+}
+
+.bestoffer-content2 h2{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.bestoffer-content2 p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.bestoffer-content2 img{
+    width: 140px;
+height: 140px;
+margin-top:80px;
+}
