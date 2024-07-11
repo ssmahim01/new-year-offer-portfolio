@@ -19,16 +19,18 @@ body{
 
 
 .banner-container{
-   max-width:1320px;
+   width:1320px;
    margin:0 auto;
    margin-top:20px;
-   min-height:600px;
+   height:600px;
    background-color:rgba(0, 0, 0, 0.6);
    background-image:url("../images/banner-image.png");background-position:center;
     background-repeat:no-repeat;
      background-size:cover;
      background-blend-mode:overlay;
      border-radius:10px;
+     width:100%;
+     height:100%;
 }
 
 .banner-content {
