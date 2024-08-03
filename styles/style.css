@@ -33,7 +33,7 @@ body{
      height:100%;
 }
 
-.banner-content {
+.banner-content{
     width:100%;
     display:flex;
     flex-direction:column;
@@ -43,9 +43,9 @@ body{
 
 }
 
-.banner-content p, h1 {
-    color:yellow;
-    
+.banner-content p, h1{
+    color:rgb(255, 255, 255);
+    text-align:center;
 }
 
 .banner-content p{
@@ -463,4 +463,71 @@ display:flex;
 .best-gifts-images img{
     width:100%;
     height:100%;
+}
+
+/* newsletter section styles start */
+
+.newsletter-section-container{
+    width:1320px;
+    height:616px;
+    margin:0 auto;
+    border-radius:1rem;
+    background-color:rgba(255, 0, 0, 0.05);
+    margin-top:3%;
+}
+
+.newsletter-text-content{
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.message-image img{
+    margin-top:5rem;
+}
+
+.newsletter-title{
+    color:rgb(7, 2, 17);
+    font-size:2.9rem;
+    font-weight:900;
+    margin-top:1.4rem;
+}
+
+.newsletter-introduction{
+    color:rgba(7, 2, 17, 0.6);
+    font-size:1rem;
+    font-weight:400;
+    margin-top:1.4rem;
+}
+
+.input-content{
+    width:50%;
+    margin:0 auto;
+    margin-top:5%;
+    display:flex;
+}
+
+.input-content input{
+    width:648px;
+    height:72px;
+    border-radius:2.1rem;
+    border:none;
+    color:rgba(7, 2, 17, 0.3);
+    font-size:1.2rem;
+    font-weight:400;
+    padding-left:1.5rem;
+    position:relative;
+}
+
+.input-content button{
+    width:215px;
+    height:72px;
+    border-radius:0 50px 50px 0;
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 0, 0);
+    border:none;
+    font-size:1.25rem;
+    font-weight:600;
+    position:absolute;
+    left:58%;
 }
