@@ -405,3 +405,62 @@ display:flex;
     left:62%;
     z-index:1;
 }
+
+/* best gifts section styles start */
+
+.best-gifts-container{
+    width:1320px;
+    height:1163px;
+    margin:0 auto;
+    margin-top:4%;
+}
+
+.best-gifts-description{
+    width:70%;
+    margin:0 auto;
+    margin:4rem;
+}
+
+.best-gifts-text{
+    color:rgb(255, 0, 0);
+    font-size:1.6rem;
+    font-weight:500;
+}
+
+.best-gifts-title{
+    color:rgb(7, 2, 17);
+    font-size:3rem;
+    font-weight:900;
+    margin-top:1rem;
+}
+
+.best-gifts-introduction{
+    color:rgba(7, 2, 17, 0.6);
+    font-size:1.25rem;
+    font-weight:400;
+    margin-top:1rem;
+}
+
+.best-gifts-images{
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap:20px;
+}
+
+.first-image-card, 
+.second-image-card, 
+.third-image-card, 
+.fourth-image-card, 
+.fifth-image-card, 
+.sixth-image-card{
+    width:380px;
+    height:390px;
+    border-radius:1rem;
+}
+
+.best-gifts-images img{
+    width:100%;
+    height:100%;
+}
