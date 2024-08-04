@@ -176,7 +176,7 @@ display:flex;
     height: 464.65px;
 }
 
-/* party shedule section styles start here */
+/* party schedule section styles start here */
 
 .party-schedule-container{
     width: 1320px;
@@ -226,6 +226,7 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 padding: 16px 32px 16px 32px;
+border:none;
 border-radius:10px;
 margin-top:70px;
 margin-bottom:110px;
@@ -239,8 +240,6 @@ cursor: pointer;
 height: 463px;
 margin:0 auto;
 margin-top:50px;
-
-
 }
 
 .bestoffer-content{
@@ -256,6 +255,7 @@ height: 255px;
 width:33%;
 height:300px;
 margin-top:110px;
+text-align:left;
 }
 
 .bestoffer-content h4{
@@ -270,7 +270,8 @@ font-weight: 500;
 font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
-margin-right:3rem;
+text-align:left;
+margin-top:1.2rem;
 }
 
 .bestoffer-content p{
@@ -278,6 +279,7 @@ margin-right:3rem;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
+margin-top:1.5rem;
 }
 
 .bestoffer-image{
@@ -306,7 +308,7 @@ height: 364.84px;
 .bestoffer-content2 h2{
     color: rgb(255, 0, 0);
 font-family: Inter;
-font-size: 48px;
+font-size: 50px;
 font-weight: 700;
 }
 
@@ -315,6 +317,7 @@ font-weight: 700;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
+margin-top:1.5rem;
 }
 
 .bestoffer-content2 img{
